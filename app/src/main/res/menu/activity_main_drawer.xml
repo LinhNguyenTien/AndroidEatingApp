@@ -26,6 +26,6 @@
             android:id="@+id/log_out"
             android:icon="@drawable/exit"
             android:iconTint="@android:color/white"
-            android:title="Log out" />
+            android:title="Sign out" />
     </group>
 </menu>

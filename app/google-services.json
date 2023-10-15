@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1051255928245",
+    "firebase_url": "https://androideatingapp-d5837-default-rtdb.firebaseio.com",
+    "project_id": "androideatingapp-d5837",
+    "storage_bucket": "androideatingapp-d5837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051255928245:android:35d6f20da17ea646d8d5fc",
+        "android_client_info": {
+          "package_name": "com.example.androideatingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GU4hj5lDZDoO3J1yFr6ifF6_BV3WL-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

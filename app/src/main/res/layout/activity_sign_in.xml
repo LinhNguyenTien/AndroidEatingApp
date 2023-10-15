@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:background="@drawable/signin_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Sign In"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="8dp">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:inputType="phone"
+            app:backgroundTint="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:inputType="textPassword"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Sign In"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_btn"
+            app:backgroundTint="@color/btnSignActive" />
+    </LinearLayout>
+
+
+</RelativeLayout>

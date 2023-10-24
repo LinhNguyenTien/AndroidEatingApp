@@ -5,9 +5,9 @@ public class Category {
     private String Name;
     private String Image;
 
-    public Category(String name, String iamge) {
+    public Category(String name, String image) {
         Name = name;
-        Image = iamge;
+        Image = image;
     }
 
     public Category() {
@@ -25,7 +25,7 @@ public class Category {
         return Image;
     }
 
-    public void setIamge(String iamge) {
-        Image = iamge;
+    public void setImage(String image) {
+        Image = image;
     }
 }

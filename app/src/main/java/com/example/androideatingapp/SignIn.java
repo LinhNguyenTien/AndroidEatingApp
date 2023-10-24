@@ -48,8 +48,7 @@ public class SignIn extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         //Check if user do not exist in database
                         if(snapshot.child(edtPhone.getText().toString()).exists()) {
-                            System.out.println("Tim thay SDT: " + edtPhone.getText().toString());
-                            //Get user infomation
+                            //Get user information
                             progressDialog.dismiss();
                             User user = snapshot.child(edtPhone.getText().toString()).getValue(User.class);
                             //Check if password is correct
